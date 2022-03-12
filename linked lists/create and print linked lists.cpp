@@ -45,6 +45,8 @@ void printLL(Node *head)
 int main()
 {
 	Node *head=NULL;
+	//we are initializing the head node initially as null.
+	//firstly it will enter into if section of the function then it will create new nodes, as per the fuction calls.
 	createLL(head,3);
 	createLL(head,4);
 	createLL(head,7);
