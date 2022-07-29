@@ -1,5 +1,3 @@
-// Simple solution to calculate square without
-// using * and pow()
 #include <iostream>
 using namespace std;
 
@@ -20,7 +18,6 @@ int square(int num)
 		}
 		power++;
 
-		// temp=temp/2
 		temp = temp >> 1;
 	}
 
